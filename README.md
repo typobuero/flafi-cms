@@ -1,0 +1,1 @@
+Flafi is an intentionally featureless flat file content management system.
