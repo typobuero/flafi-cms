@@ -32,7 +32,7 @@ For a preview of what exactly you get when downloading and using this repo, you 
 
 ## Prerequisites
 
-To make use if flafi you need webspace on an Apache server with PHP ≥ 5.6 running — and you need this repository. To be more specific: You need the following files as a bare minimum:
+To make use of flafi you need webspace on an Apache server with PHP ≥ 5.6 running — and you need this repository. To be more specific: You need the following files as a bare minimum:
 
 - `.htaccess` ― to set the stage.
 - `flafi.php` — the main engine.
