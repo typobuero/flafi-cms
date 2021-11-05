@@ -17,12 +17,12 @@
  
 
      Software: flafi CMS
-      Version: 2.0 build 0008 2021-11-04
+      Version: 2.0 build 0009 2021-11-05
       Creator: Christian Münch, Typobüro
      Web Page: https://typobuero.com
       Project: https://flafi.de
        Github: https://github.com/typobuero/flafi-cms/
-      Licence: MIT-NA, https://github.com/typobuero/flafi-cms/LICENCE.txt
+      Licence: MIT-NA, https://github.com/typobuero/flafi-cms/blob/main/LICENCE.txt
 
                                                                                 
 *******************************************************************************/

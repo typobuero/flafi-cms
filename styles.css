@@ -175,6 +175,7 @@ input#nav-collapsible + label {
 
 input#nav-collapsible + label:after {
 	content: "|||";
+	font-family: 'Arial', sans-serif;
 	color: var(--color-text);
 	font-weight: bold;
 	letter-spacing: 0.8px;
@@ -190,6 +191,7 @@ input#nav-collapsible + label:after {
 
 input#nav-collapsible:checked + label:after {
 	content: "×";
+	font-family: 'Arial', sans-serif;
 	font-weight: normal;
 	font-size: 1.5em;
 	right: unset;
