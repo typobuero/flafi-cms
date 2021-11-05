@@ -1,13 +1,15 @@
+![Welcome to flafi CMS on GitHub](https://git.flafi.de/readme-welcome.jpg "Welcome to the flafi repo!")
+
 # Howdy, I’m flafi !
 
 **Flafi CMS is an Intentionally Featureless Modular Flat File Content Management System.**
 
 * Software: flafi CMS
-* Project: [https://flafi.de/](https://flafi.de/)
-* Source: [https://github.com/typobuero/flafi-cms](https://github.com/typobuero/flafi-cms)
-* Licence: [MIT-NA](LICENCE.txt)
+* Project: [flafi.de](https://flafi.de/)
+* Source: [github.com/typobuero/flafi-cms](https://github.com/typobuero/flafi-cms/)
+* Licence: [MIT-NA](https://github.com/typobuero/flafi-cms/blob/main/LICENCE.txt)
 * Creator: Christian Münch, Typobüro
-* Homepage: [https://typobuero.com/](https://typobuero.com/)
+* Homepage: [typobuero.com](https://typobuero.com/)
 
 
 ## Goal
@@ -16,14 +18,21 @@ Flafi aims to provide a quick and simple approach to creating small websites. It
 
 This gives the possibility to make direct file editing in plain and simple HTML – and PHP, if you need to do some dynamic stuff. No sluggish WYSIWYG editors, no backends, no processing and generating, no database. This is meant by ‘flat file’.
 
-Your content is served directly from files. You manage your content on your own, straight and clear inside the directory, wich is your menu item. Keeps everything simple and well-arranged. This is meant by ‘content management system’.
+Your content is served directly from files. You manage your content on your own, straight and clear inside the directory, which is your menu item. Keeps everything simple and well-arranged. This is meant by ‘content management system’.
 
 Sounds too easy? That’s right ― because sometimes you need exactly that for a project.
 
+## Preview
+
+For a preview of what exactly you get when downloading and using this repo, you can visit this link:
+
+* [git.flafi.de/flafi-cms](git.flafi.de/flafi-cms/)
+
+![Preview of flafi CMS out-of-the-box](https://git.flafi.de/readme-preview-gitflafide.png "Preview of flafi CMS")
 
 ## Prerequisites
 
-You need webspace on a server with PHP ≥ 5.6 running — and you need this repository. To be more specific: You need the following files as a bare minimum:
+To make use if flafi you need webspace on an Apache server with PHP ≥ 5.6 running — and you need this repository. To be more specific: You need the following files as a bare minimum:
 
 - `.htaccess` ― to set the stage.
 - `flafi.php` — the main engine.
@@ -41,7 +50,8 @@ Additionally it is very advisable to also have the following files:
 
 1. In `.htaccess` line 2 set the `RewriteBase` to the directory where you plan to have flafi running — usually in your web root, so just `/`.
 2. In `index.php` go to HTML’s `<head>` section and set `<base href="">` to exactly this directory where you plan to have flafi running ― **with** a trailing slash `/`.
-3. Create subdirectories (your future menu items) containing at least an `index.php`. It is expected that you provide the `<main>` element of your HTML in there.
+3. In `index.php` edit the whole template (`head`, `header`, `footer`) to match your project.
+4. Create subdirectories (your future menu items) containing at least an `index.php`. It is expected that you provide the `<main>` element of your HTML in there.
 
 Just explore the example files and you will know your way around real quick. You're also encouraged to have a dive in `flafi.php`, where you’ll find a lot of comments and will have access to some more useful features to hand-craft your project.
 
@@ -87,7 +97,7 @@ Because flafi is meant to be simple, be aware of its limitations:
 
 ## License
 
-Flafi is released under the [MIT Non-Aggression](LICENCE.txt) licence. This means that you can freely do whatever you want with the software, as long as it is without intention to aggression.
+Flafi is released under the [MIT Non-Aggression](https://github.com/typobuero/flafi-cms/blob/main/LICENCE.txt) licence. This means that you can freely do whatever you want with the software, as long as it is without intention to aggression.
 
 
 **Now have fun using flafi CMS for your projects — drop me a line if you built something great!**
