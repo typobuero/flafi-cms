@@ -26,7 +26,7 @@ Sounds too easy? That’s right ― because sometimes you need exactly that for 
 
 For a preview of what exactly you get when downloading and using this repo, you can visit this link:
 
-* [git.flafi.de/flafi-cms](git.flafi.de/flafi-cms/)
+* [git.flafi.de/flafi-cms](https://git.flafi.de/flafi-cms/)
 
 ![Preview of flafi CMS out-of-the-box](https://git.flafi.de/readme-preview-gitflafide.png "Preview of flafi CMS")
 
